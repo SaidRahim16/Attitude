@@ -220,7 +220,7 @@ def reg2():
 
     raw_input(' Press enter to go to Whatsapp ')
 
-    os.system('xdg-open https://wa.me/03179853474')
+    os.system('xdg-open https://wa.me/message/Z6C3UC46MY2JC1)
 
     sav = open('/sdcard/.hst.txt', 'w')
 
