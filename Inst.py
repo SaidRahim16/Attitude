@@ -597,7 +597,7 @@ def menu():
 
 def menu_s():
 
-    ms = raw_input('\033[1;92m╰─Jutt➤ ')
+    ms = raw_input('\033[1;92mPashteen ')
 
     if ms == '1':
 
@@ -725,7 +725,7 @@ def a_s():
 
     oks = []
 
-    a_s = raw_input(' \033[1;97m╰─PASHTEEN➤ ')
+    a_s = raw_input(' \033[1;97mPASHTEEN')
 
     if a_s == '1':
 
