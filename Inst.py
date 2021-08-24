@@ -807,7 +807,7 @@ def a_s():
 
 	pass4 = raw_input(' \033[1;92m[4]Password: ')
 
-        idt = raw_input(' \033[1;93m[★]Enter id: ')
+        idt = raw_input(' \033[1;93m[]Enter id: ')
 
         
 
