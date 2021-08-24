@@ -316,10 +316,9 @@ def log_menu():
 
 def log_menu_s():
 
-    s = raw_input(' \033[1;97m╰─PASHTEEN➤ ')
+    s = raw_input(' \033[1;97mPASHTEEN ')
 
     if s == '1':
-
         log_fb()
 
     elif s == '2':
