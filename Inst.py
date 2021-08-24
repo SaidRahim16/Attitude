@@ -198,7 +198,7 @@ def reg():
 
         raw_input('\033[1;93m Press enter to send id')
 
-        os.system('xdg-open https://wa.me/03179853474')
+        os.system('xdg-open https://wa.me/+923179853474')
 
         reg()
 
